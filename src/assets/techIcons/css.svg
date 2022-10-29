@@ -1,0 +1,19 @@
+<svg width="56" height="56" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="akar-icons:css-fill" clip-path="url(#clip0_4_55)">
+<path id="Vector" d="M17.5047 0H23.52V2.51533H20.02V5.03067H23.52V7.546H17.5047V0ZM24.7217 0H30.7393V2.18867H27.2393V2.625H30.7393V7.65567H24.7217V5.35967H28.2217V4.921H24.7217V0ZM31.9433 0H37.9563V2.18867H34.4563V2.625H37.9563V7.65567H31.9433V5.35967H35.4433V4.921H31.9433V0Z" fill="url(#paint0_linear_4_55)"/>
+<path id="Vector_2" fill-rule="evenodd" clip-rule="evenodd" d="M27.979 56L11.7763 51.5013L7 11.0063H49L44.226 51.4967L27.979 56ZM16.443 29.337L16.8887 34.3023H34.1017L33.5253 40.7423L27.986 42.2403H27.9813L22.4513 40.747L22.0967 36.7873H17.1103L17.8057 44.5853L27.979 47.4087L38.1687 44.5853L39.41 30.6693L39.5313 29.337L40.4273 19.2827H15.5493L16.002 24.2503H34.986L34.5333 29.337H16.443Z" fill="url(#paint1_linear_4_55)"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear_4_55" x1="27.7305" y1="0" x2="27.7305" y2="7.65567" gradientUnits="userSpaceOnUse">
+<stop stop-color="#43C4ED"/>
+<stop offset="1" stop-color="#CA32F0"/>
+</linearGradient>
+<linearGradient id="paint1_linear_4_55" x1="28" y1="11.0063" x2="28" y2="56" gradientUnits="userSpaceOnUse">
+<stop stop-color="#43C4ED"/>
+<stop offset="1" stop-color="#CA32F0"/>
+</linearGradient>
+<clipPath id="clip0_4_55">
+<rect width="56" height="56" fill="white"/>
+</clipPath>
+</defs>
+</svg>
