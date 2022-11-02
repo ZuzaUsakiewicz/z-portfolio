@@ -1,0 +1,20 @@
+<svg width="56" height="56" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="akar-icons:html-fill">
+<g id="Group">
+<g id="Group_2">
+<path id="Vector" d="M11.8533 0H14.378V2.49433H16.688V0H19.2127V7.55067H16.688V5.02367H14.378V7.55067H11.8557V0H11.8533ZM22.5307 2.50367H20.3093V0H27.279V2.50367H25.0553V7.55067H22.5307V2.50367V2.50367ZM28.385 0H31.017L32.6363 2.653L34.2533 0H36.8853V7.55067H34.3723V3.808L32.6363 6.49367H32.592L30.8537 3.81033V7.55067H28.385V0V0ZM38.1407 0H40.6677V5.05633H44.2143V7.553H38.1407V0V0Z" fill="url(#paint0_linear_4_50)"/>
+<path id="Vector_2" fill-rule="evenodd" clip-rule="evenodd" d="M11.774 51.5013L7 11.0063H49L44.2237 51.4967L27.9767 56L11.774 51.5013ZM21.427 29.3347L20.9743 24.248H39.9793L40.4227 19.2827H15.5493L16.8887 34.3023H34.1017L33.5253 40.7424L27.986 42.2404H27.9813L22.4513 40.747L22.0967 36.7873H17.108L17.8033 44.5853L27.9767 47.4087L38.1663 44.5853L39.4077 30.6693L39.529 29.337H21.427V29.3347Z" fill="url(#paint1_linear_4_50)"/>
+</g>
+</g>
+</g>
+<defs>
+<linearGradient id="paint0_linear_4_50" x1="28.0338" y1="0" x2="28.0338" y2="7.553" gradientUnits="userSpaceOnUse">
+<stop stop-color="#43C4ED"/>
+<stop offset="1" stop-color="#CA32F0"/>
+</linearGradient>
+<linearGradient id="paint1_linear_4_50" x1="28" y1="11.0063" x2="28" y2="56" gradientUnits="userSpaceOnUse">
+<stop stop-color="#43C4ED"/>
+<stop offset="1" stop-color="#CA32F0"/>
+</linearGradient>
+</defs>
+</svg>
