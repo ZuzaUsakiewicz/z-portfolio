@@ -10,6 +10,8 @@ import About from "./pages/About";
 import Projects from "./pages/Projects";
 import ErrorPage from "./pages/ErrorPage";
 import SingleProject from "./components/SingleProject";
+import Contact from "./pages/Contact";
+import Stack from "./pages/Stack";
 
 const router = createBrowserRouter([
   {
@@ -22,18 +24,20 @@ const router = createBrowserRouter([
         element: <Home />,
       },
       {
-        path: "about",
-        element: <About />,
-      },
-      {
         path: "projects",
         element: <Projects />,
+      },
+      { path: "stack", element: <Stack /> },
+      {
+        path: "about",
+        element: <About />,
       },
       {
         path: "projects/:id",
         element: <SingleProject />,
         errorElement: <ErrorPage />,
       },
+      { path: "contact", element: <Contact /> },
     ],
   },
 ]);
