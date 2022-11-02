@@ -1,18 +1,7 @@
 import { SectionContainer, SectionTitle, Subtitle } from "../theme/components";
 import ZLogo from "../assets/ZetLogo.svg";
 import ReadMoreLink from "./ReadMoreLink";
-import styled from "styled-components";
-import { mediaQueries } from "../theme/mediaQueries";
-
-const Text = styled.p`
-  padding: 0 0.5rem;
-  text-align: justify;
-  font-weight: ${({ theme }) => theme.typography.weight.light};
-  @media ${mediaQueries.laptop} {
-    font-size: ${({ theme }) => theme.typography.size.mdFont};
-    width: 40rem;
-  }
-`;
+import { Text } from "../theme/components";
 
 const HomeAboutSection = () => {
   return (

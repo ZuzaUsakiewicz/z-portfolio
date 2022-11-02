@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import styled from "styled-components";
 import { FlexColumnCenter, FlexRowCenter } from "./styleHelpers";
 import { mediaQueries } from "./mediaQueries";
@@ -15,6 +14,16 @@ export const SectionContainer = styled.section`
   max-width: 1200px;
   @media ${mediaQueries.laptop} {
     padding: 5rem 0;
+  }
+`;
+
+export const Text = styled.p`
+  padding: 0 0.5rem;
+  text-align: justify;
+  font-weight: ${({ theme }) => theme.typography.weight.light};
+  @media ${mediaQueries.laptop} {
+    font-size: ${({ theme }) => theme.typography.size.mdFont};
+    width: 40rem;
   }
 `;
 
