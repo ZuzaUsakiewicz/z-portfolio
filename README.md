@@ -2,7 +2,7 @@
 
 ###### Personal Portfolio
 
-### Live: [Portfolio]()
+### Live: [Portfolio](https://zuza.netlify.app/)
 
 ## Table of contents
 
