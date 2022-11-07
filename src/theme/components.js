@@ -1,5 +1,10 @@
 import styled from "styled-components";
-import { FlexColumnCenter, FlexRowCenter } from "./styleHelpers";
+import {
+  FlexColumnCenter,
+  FlexRowCenter,
+  CardShadow,
+  GradientBG,
+} from "./styleHelpers";
 import { mediaQueries } from "./mediaQueries";
 
 export const Container = styled.section`
@@ -61,4 +66,23 @@ export const Subtitle = styled.h3`
   @media ${mediaQueries.laptop} {
     font-size: ${({ theme }) => theme.typography.size.mdFont};
   }
+`;
+
+export const ButtonScrollToTop = styled.button`
+  cursor: pointer;
+  position: fixed;
+  bottom: 0.5rem;
+  right: 0.5rem;
+  ${GradientBG};
+  border-radius: 50%;
+  border: none;
+  font-size: 2rem;
+  width: 3rem;
+  height: 3rem;
+  transform: ${({ showButton }) =>
+    showButton ? "translateY(0)" : "translateY(5rem)"};
+  ${FlexColumnCenter};
+  z-index: 999;
+  transition: transform 0.3s linear;
+  ${CardShadow};
 `;
