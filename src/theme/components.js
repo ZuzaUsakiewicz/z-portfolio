@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { motion } from "framer-motion";
 import {
   FlexColumnCenter,
   FlexRowCenter,
@@ -7,13 +8,13 @@ import {
 } from "./styleHelpers";
 import { mediaQueries } from "./mediaQueries";
 
-export const Container = styled.section`
+export const Container = styled(motion.section)`
   padding: 0.5rem;
   ${FlexColumnCenter};
   position: relative;
 `;
 
-export const SectionContainer = styled.section`
+export const SectionContainer = styled(motion.section)`
   padding: 2rem 0rem;
   text-align: right;
   max-width: 1200px;
@@ -37,7 +38,7 @@ export const FlexContainer = styled.section`
   ${FlexRowCenter};
 `;
 
-export const SectionTitle = styled.h2`
+export const SectionTitle = styled(motion.h2)`
   font-weight: ${({ theme }) => theme.typography.weight.bold};
   font-size: ${({ theme }) => theme.typography.size.lgFont};
   text-align: center;
