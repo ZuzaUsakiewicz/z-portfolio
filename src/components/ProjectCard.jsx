@@ -144,9 +144,9 @@ const ProjectCard = ({ project }) => {
           <h5>build with:</h5>
           <ProjectTechnologies>
             {project.stack.map((st, index) => (
-              <span>
+              <span key={index}>
                 <TiTickOutline fill="#35D161" />
-                <p key={index}>{st}</p>
+                <p>{st}</p>
               </span>
             ))}
           </ProjectTechnologies>
