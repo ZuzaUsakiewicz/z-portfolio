@@ -4,6 +4,7 @@ import { ButtonScrollToTop, Container } from "../theme/components";
 import Navbar from "../components/Navbar";
 import { ScrollToTop } from "../components/ScrollToTop";
 import { BiUpArrowAlt } from "react-icons/bi";
+import { motion } from "framer-motion";
 
 function Root() {
   const [showButton, setShowButton] = useState(false);
@@ -22,7 +23,9 @@ function Root() {
       <Container>
         <Navbar />
         <Outlet />
-        <footer> Made with 💙 by Zuza in 2022</footer>
+        <motion.footer initial={{ opacity: 0 }} whileInView={{ opacity: 1 }}>
+          Made with 💙 by Zuza in 2022
+        </motion.footer>
       </Container>
       <ButtonScrollToTop
         showButton={showButton}

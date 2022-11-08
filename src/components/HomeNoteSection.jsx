@@ -73,7 +73,11 @@ const Icons = styled.div`
 
 const HomeNoteSection = () => {
   return (
-    <SectionContainer>
+    <SectionContainer
+      initial={{ opacity: 0 }}
+      whileInView={{ opacity: 1 }}
+      transition={{ duration: 1 }}
+    >
       <NoteContainer>
         <Note>
           Currently, I'm looking for an intership/job as a Front-end/React Dev.

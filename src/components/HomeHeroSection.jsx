@@ -9,7 +9,7 @@ import LineLI from "../assets/lineLI.svg";
 import LineP from "../assets/lineP.svg";
 
 const HeroContainer = styled(Container)`
-  min-height: 30rem;
+  min-height: 35rem;
   max-height: 34rem;
   position: relative;
   @media ${mediaQueries.laptop} {
@@ -146,7 +146,11 @@ const BoldLinkRoute = styled(Link)`
 
 const HomeHeroSection = () => {
   return (
-    <HeroContainer>
+    <HeroContainer
+      initial={{ opacity: 0, scale: 0.5 }}
+      animate={{ opacity: 1, scale: 1 }}
+      transition={{ duration: 0.5 }}
+    >
       <Title>
         Hello! I'm <span>Zuza</span>,
       </Title>
