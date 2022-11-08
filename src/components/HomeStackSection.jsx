@@ -14,7 +14,11 @@ const Addition = styled.p`
 
 const HomeStackSection = () => {
   return (
-    <SectionContainer>
+    <SectionContainer
+      initial={{ opacity: 0 }}
+      whileInView={{ opacity: 1 }}
+      transition={{ duration: 1 }}
+    >
       <SectionTitle>my stack</SectionTitle>
       <Subtitle>what I'm using on a regular basis</Subtitle>
       <Addition>* currently learning</Addition>

@@ -4,7 +4,11 @@ import ReadMoreLink from "./ReadMoreLink";
 
 const HomeProjectsSection = () => {
   return (
-    <SectionContainer>
+    <SectionContainer
+      initial={{ opacity: 0 }}
+      whileInView={{ opacity: 1 }}
+      transition={{ duration: 1 }}
+    >
       <SectionTitle>projects</SectionTitle>
       <Subtitle>favorite apps I've made</Subtitle>
       <CardsContainer />

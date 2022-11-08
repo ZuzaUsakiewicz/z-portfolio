@@ -10,7 +10,12 @@ import TechIcons from "../components/TechIcons";
 
 const Stack = () => {
   return (
-    <Container>
+    <Container
+      style={{ padding: "0.2rem" }}
+      initial={{ opacity: 0, scale: 0.5 }}
+      animate={{ opacity: 1, scale: 1 }}
+      transition={{ duration: 0.5 }}
+    >
       <SectionContainer>
         <SectionTitle>my stack</SectionTitle>
         <Subtitle>why am I using this?</Subtitle>

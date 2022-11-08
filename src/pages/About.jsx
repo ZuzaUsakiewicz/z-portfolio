@@ -8,7 +8,11 @@ import {
 
 const About = () => {
   return (
-    <Container>
+    <Container
+      initial={{ opacity: 0, scale: 0.5 }}
+      animate={{ opacity: 1, scale: 1 }}
+      transition={{ duration: 0.5 }}
+    >
       <SectionContainer>
         <SectionTitle>about me</SectionTitle>
         <Subtitle>little more personal</Subtitle>

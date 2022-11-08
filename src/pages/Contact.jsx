@@ -56,7 +56,11 @@ const ContactMeForm = styled.form`
 
 const Contact = () => {
   return (
-    <Container>
+    <Container
+      initial={{ opacity: 0, scale: 0.5 }}
+      animate={{ opacity: 1, scale: 1 }}
+      transition={{ duration: 0.5 }}
+    >
       <SectionContainer>
         <SectionTitle>contact me</SectionTitle>
         <Subtitle>via linkedin or with this form:</Subtitle>

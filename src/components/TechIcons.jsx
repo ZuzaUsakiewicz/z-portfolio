@@ -29,6 +29,7 @@ const StackContainer = styled.div`
   gap: 0.5rem;
   padding: 4rem 0;
   max-width: 20rem;
+  margin: 0 auto;
   @media ${mediaQueries.laptop} {
     max-width: 72rem;
     padding: 5rem 0;
